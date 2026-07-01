@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Job, JobStatus } from '../entities/job.entity';
+import { Job, JobStatus } from './job.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
